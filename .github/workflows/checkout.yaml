@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: ls before
       run: ls -a
-    - uses: action/checkout@v4.1.1
+    - uses: actions/checkout@v4
 
     - name: ls after
       run: ls -a
