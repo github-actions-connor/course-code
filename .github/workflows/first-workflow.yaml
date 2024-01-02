@@ -25,4 +25,4 @@ jobs:
       - name: echo string
         run: Write-Output "Windows hello world"
       - name: test error
-        run: doesntexists
+        run: doesntexistsss
